@@ -1,3 +1,5 @@
+![image](https://miro.medium.com/max/2704/1*4ErEpyZmmyaMC9cWNmBiXQ.png)
+
 # K8s with Gitlab & Helm
 
 This repo generates a local k8s cluster using Minikube and installs Gitlab using Helm.
