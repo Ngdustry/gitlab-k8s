@@ -1,7 +1,5 @@
 .PHONY: setup-minikube \
 install-gitlab \
-get-url \
-get-pw \
 get-login \
 uninstall-gitlab \
 delete-minikube
