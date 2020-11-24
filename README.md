@@ -7,6 +7,7 @@ This repo generates a local k8s cluster using Minikube and installs Gitlab using
 ## Resources
 
 - [Kubernetes install tools](https://kubernetes.io/docs/tasks/tools/)
+- [Helm quickstart guide](https://helm.sh/docs/intro/quickstart/)
 - [Developing for Kubernetes with Minikube](https://docs.gitlab.com/charts/development/minikube/)
 
 ## Before getting started
@@ -15,6 +16,7 @@ To use this repo, ensure you have the following installed:
 
 - [Minikube](https://minikube.sigs.k8s.io/docs/start/)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+- [Helm](https://helm.sh/docs/intro/install/)
 
 ## Setup
 
@@ -32,7 +34,7 @@ To install Gitlab Helm chart:
   make install-gitlab
 ```
 
-NOTE: The gitlab installation takes a bit of time to spin up all pods (average 7-8 minutes).
+NOTE: The gitlab installation takes a bit of time to spin up all pods (average 7+ minutes).
 
 ## Using Gitlab
 
